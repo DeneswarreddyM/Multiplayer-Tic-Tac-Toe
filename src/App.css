@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+
+
+body{
+    background-color:#1F1F2F ;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    display: grid;
+    place-items: center;
+}
+.move-detection{
+    display: flex;
+    grid-gap:140px
+}
+
+.left ,.right{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    text-align: center; /* Ensures text is centered within the flex container */
+}
+.right{
+    background-color: red;
+}
+.game-heading{
+    
+    background-color: #4B495F;
+    padding: 5px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.squares-box{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;  
+}
+
+.footer{
+    margin: 50px;
+    width:200px;
+    height:100px;
+    background-color: #4B495F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+
+
+

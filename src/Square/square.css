@@ -1,0 +1,17 @@
+.Square{
+    width:80px;
+    height:80px;
+    background-color: #4B495F;
+    color: rgb(255, 0, 0);
+    border-radius:5px;
+}
+
+.normal{
+    cursor:pointer;
+}
+
+.not-allowed{
+    cursor:not-allowed;
+    background-color: aqua;
+}
+
